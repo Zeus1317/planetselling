@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>planet Shop</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+
+        }
+        body{
+            background-color: #2c2c2c;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        header{
+
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+            ul li a{
+                margin: 0 5px;
+                border: 2px  solid white;
+                padding: 0px 10px;
+                text-decoration: none;
+                border-radius: 50px;
+            
+            }
+            .logo{
+                border: 2px solid white;
+                color: white;
+            }
+            
+        .signup{
+            background-color: white;
+            color: black;
+        }
+        .signup:hover{
+            background-color:black;
+            color: white;
+
+        }
+        .btn:hover{
+            background-color:black;
+            color: white;
+            border: 2px solid white;
+
+        }
+        main{
+
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        main h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 31.5px;
+        }
+        .contentleft{
+            flex:1;
+        }
+        .contentmid{
+            flex:2;
+        }
+        .contentright{
+            flex: 1;
+        }
+        .merc{
+            max-width: 500px;
+            height: auto;
+        }
+        .btn{
+            padding: 15px 30 px;
+            background-color: white;
+            border: none;
+            outline: none;
+            color: black;
+            border-radius: 50px;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"> Logo</div>
+        <nav>
+            <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Buy Now</a></li>
+            <li><a href="#">Sell Now</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#" class="signup"> Sign Up</a></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contentleft"></div>
+    <h2>Mercury</h2>
+    </div>
+    <div class="contentmid"></div>
+    <p>Mercury is the smallest and innermost planet in our solar system, orbiting the Sun at an average distance of 57.91 million kilometers (0.387098 AU)<br>
+         It is a terrestrial planet, with a rocky composition and a relatively small size, measuring approximately 4,879 kilometers (3,031 miles) in diameter.</p>
+         <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="contentright"></div>
+    <img src="mercury-5537392_1280.jpg" class="merc">
+    </main>
+</body>
+</html>
